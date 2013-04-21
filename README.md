@@ -39,9 +39,14 @@ file a github issue.  I probably just didn't think of it.
 ## hasn't library X done this before?
 probably.  this is almost no code.  this was mostly a learning exercise for scala's stream api.
 
-## where can download the dependencies?
-publishing to sonatype is a pain, so I haven't done it yet.  if you want to use it, file a github
-issue and I'll work something out.
+## where can I download this?
+
+### SBT
+```scala
+resolvers += "sonatype" at "https://oss.sonatype.org/content/repositories/releases/"
+
+libraryDependencies ++= Seq("com.mosesn" %% "streamer" % "0.0.1")
+```
 
 ## found a bug
 file a github issue
