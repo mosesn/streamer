@@ -16,7 +16,7 @@ ugh no just implement iterable
 ## api?
 ok sure
 
-## direct
+### direct
 ```scala
 import com.mosesn.streamer.Streamer
 val x = (0 until 10).toList
